@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}村人陣営}{1}
+\contentsline {subsection}{\numberline {1.1}占い}{1}
+\contentsline {subsection}{\numberline {1.2}霊能}{1}
+\contentsline {subsection}{\numberline {1.3}狩人}{1}

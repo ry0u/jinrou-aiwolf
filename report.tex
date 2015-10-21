@@ -1,0 +1,73 @@
+\documentclass[a4paper]{jarticle}
+
+\usepackage{url}
+\usepackage{here}
+\usepackage{listings}
+\usepackage{wrapfig}
+\usepackage{ascmac}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[top=30truemm,bottom=30truemm,left=25truemm,right=25truemm]{geometry}
+
+\begin{document}
+
+自分のプログラムが以下のことを実現できているのか，確信が全く無いのでそれっぽい動きはするかもしれないが，しないかもしれない．
+
+\section{村人陣営}
+
+\subsection{占い}
+
+\begin{itemize}
+    \item 初日の朝最速でCO
+    \item その後占い結果も朝最速で伝える
+    \item 占い先は1COなら自由でよい
+    \item 2COの時は対抗の白出しを占うことえ確定白を作る(Randomで分ける)
+\end{itemize}
+
+\subsection{霊能}
+
+\begin{itemize}
+    \item 基本的に余りCOしない．自分に投票が集まりそうならCOもあり
+    \item COするタイミングは偽COに対するCCOや占いが黒だしした先がつられた時など
+    \item CCOが成功した場合ローラーするのがよい
+\end{itemize}
+
+\subsection{狩人}
+
+\begin{itemize}
+    \item ひたすら占いを守るのが仕事
+    \item たまに色気を出して1COの霊能や，確定白を守る
+    \item 狼から見て真占いが確定する状況では，狩人からは分からなくても，占いを優先して守りたい
+    \item 奇数から偶数は釣り数は増えないが，偶数から奇数は増えるので，偶数の時には強気に読みに行く
+\end{itemize}
+
+\subsection{村人}
+
+\begin{itemize}
+    \item COは基本しない
+    \item 投票先はグレランか確定白に合わせるかローラーの三択
+    \item ローラーに完全にやり切るのが大事
+    \item 占い確定時に村人COをして釣りで狩人を守るという選択肢も無くな無い
+\end{itemize}
+
+\section{狼陣営}
+
+\subsection{狼}
+
+\begin{itemize}
+    \item 占いが確定し，狩人で守られ続けると割とどうしようもないので，狂人が占いCOしない場合は自分が占いCO
+    \item 投票が集まりそうな場合は霊能COをすることで吊りに2手かけさせる(これは一度のみ)
+    \item 占いに黒だしされた場合は何を行っても吊られるので諦める
+    \item 噛み対象は，村から見て確定白や霊能CO等を噛み，狩人が吊られたり，噛めたりしそうなら占いを噛む
+    \item 一度なら守られても吊りは増えないので，強気に占いを噛みにいく
+    \item 狂人占い師の黒だしや狼への白だしによって真占いが見えた場合，すぐに噛む
+    \item 狼の吊り投票合わせは強力だが，下手すると見破られて狼が全滅するのでしない．
+\end{itemize}
+
+\subsection{狂人}
+\begin{itemize}
+    \item 占いCOして場にも確定的な情報を減らすのが仕事
+    \item 何もしないで潜伏しているので，狼がリスクを追わないように，COが出たらCCOする．
+    \item COした役職を演じきる
+\end{itemize}
+
+\end{document}
